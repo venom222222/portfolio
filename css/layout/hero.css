@@ -1,0 +1,45 @@
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__section {
+    width: 60%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: #5B23FF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__text {
+    font-size: clamp(1rem, 4vw, 3rem);
+}
+
+.hero__title {
+    color: #5B23FF;
+    font-size: clamp(2rem, 8vw, 4rem);
+}
+
+@media screen and (min-width:744px) {
+    .hero__container {
+        justify-content: space-around;
+    }
+
+    .hero__section {
+        width: 22%;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .hero__container {
+        justify-content: space-around;
+    }
+
+    .hero__section {
+        width: 22%;
+    }
+}
