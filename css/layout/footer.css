@@ -1,0 +1,29 @@
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    background: var(--bg);
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+
+.footer__text {
+    font-size: clamp(1rem, 4vw, 3rem);
+    margin-top: 2rem;
+}
+
+.footer__img {
+    width: 10%;
+    margin-right: 1.5rem;
+}
+
+.footer__block {
+    display: flex;
+    margin-top: 1.5rem;
+}
+@media screen and (min-width:744px) {
+    .footer__img{
+        width: 5.5%;
+    }
+
+}   
